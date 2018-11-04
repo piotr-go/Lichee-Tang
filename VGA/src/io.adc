@@ -1,0 +1,27 @@
+set_pin_assignment {SYS_CLK} { LOCATION = K14; }		##24MHZ
+#set_pin_assignment {SYS_RST} { LOCATION = K16; }		##USER_KEY
+
+set_pin_assignment {VGA_B[7]} { LOCATION = P9;  }
+set_pin_assignment {VGA_B[6]} { LOCATION = R9;  }
+set_pin_assignment {VGA_B[5]} { LOCATION = P11;  }
+set_pin_assignment {VGA_B[4]} { LOCATION = P8;  }
+set_pin_assignment {VGA_B[3]} { LOCATION = M10;  }
+set_pin_assignment {VGA_B[2]} { LOCATION = R5;  }
+
+set_pin_assignment {VGA_G[7]} { LOCATION = R12;  }
+set_pin_assignment {VGA_G[6]} { LOCATION = T14;  }
+set_pin_assignment {VGA_G[5]} { LOCATION = P12;  }
+set_pin_assignment {VGA_G[4]} { LOCATION = T13;  }
+set_pin_assignment {VGA_G[3]} { LOCATION = N11;  }
+set_pin_assignment {VGA_G[2]} { LOCATION = L10;  }
+
+set_pin_assignment {VGA_R[7]} { LOCATION = R15;  }
+set_pin_assignment {VGA_R[6]} { LOCATION = M12;  }
+set_pin_assignment {VGA_R[5]} { LOCATION = T15;  }
+set_pin_assignment {VGA_R[4]} { LOCATION = R16;  }
+set_pin_assignment {VGA_R[3]} { LOCATION = R14;  }
+set_pin_assignment {VGA_R[2]} { LOCATION = N12;  }
+
+set_pin_assignment {VGA_H} { LOCATION = B10;  }
+set_pin_assignment {VGA_V} { LOCATION = A6;  }
+set_pin_assignment {VGA_CLK} { LOCATION = R7;  }
