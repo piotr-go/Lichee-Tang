@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2018-11-01 12:00:00</Project_Created_Time>
+    <TD_Version>4.2.885</TD_Version>
+    <UCode>00000000</UCode>
+    <Name>fpga_nes</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File>../src/nes/apu.v</File>
+            <File>../src/nes/compat.v</File>
+            <File>../src/nes/cpu.v</File>
+            <File>../src/nes/hq2x.v</File>
+            <File>../src/nes/MicroCode.v</File>
+            <File>../src/nes/mmu.v</File>
+            <File>../src/nes/nes.v</File>
+            <File>../src/nes/NES_Nexys4.v</File>
+            <File>../src/nes/ppu.v</File>
+            <File>../src/nes/vga.v</File>
+            <File>../src/nes.v</File>
+            <File>../src/SDRAM_ctrl.v</File>
+        </Verilog>
+        <ADC_FILE>../src/io.adc</ADC_FILE>
+        <SDC_FILE/>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL/>
+        <MODULE>fpga_nes</MODULE>
+        <CREATEINDEX>auto</CREATEINDEX>
+    </TOP_MODULE>
+    <Property>
+        <BitgenProperty::GeneralOption>
+            <bin>on</bin>
+            <c>on</c>
+            <gen_mask>off</gen_mask>
+            <s>off</s>
+            <time_info>on</time_info>
+            <version>0x00</version>
+        </BitgenProperty::GeneralOption>
+    </Property>
+    <Project_Settings>
+        <Step_Last_Change>2018-11-01 12:00:00</Step_Last_Change>
+        <Current_Step>0</Current_Step>
+        <Step_Status>true</Step_Status>
+    </Project_Settings>
+</Project>

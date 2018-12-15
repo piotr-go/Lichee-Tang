@@ -1,0 +1,54 @@
+set_pin_assignment {SYS_CLK} { LOCATION = K14; }		##24MHZ
+#set_pin_assignment {SYS_RST} { LOCATION = K16; }		##USER_KEY
+
+set_pin_assignment {LED1_OUT} { LOCATION = P13;  }
+set_pin_assignment {LED2_OUT} { LOCATION = J14;  }
+
+set_pin_assignment {VGA_B[7]} { LOCATION = P9;  }
+set_pin_assignment {VGA_B[6]} { LOCATION = R9;  }
+set_pin_assignment {VGA_B[5]} { LOCATION = P11;  }
+set_pin_assignment {VGA_B[4]} { LOCATION = P8;  }
+set_pin_assignment {VGA_B[3]} { LOCATION = M10;  }
+set_pin_assignment {VGA_B[2]} { LOCATION = R5;  }
+
+set_pin_assignment {VGA_G[7]} { LOCATION = R12;  }
+set_pin_assignment {VGA_G[6]} { LOCATION = T14;  }
+set_pin_assignment {VGA_G[5]} { LOCATION = P12;  }
+set_pin_assignment {VGA_G[4]} { LOCATION = T13;  }
+set_pin_assignment {VGA_G[3]} { LOCATION = N11;  }
+set_pin_assignment {VGA_G[2]} { LOCATION = L10;  }
+
+set_pin_assignment {VGA_R[7]} { LOCATION = R15;  }
+set_pin_assignment {VGA_R[6]} { LOCATION = M12;  }
+set_pin_assignment {VGA_R[5]} { LOCATION = T15;  }
+set_pin_assignment {VGA_R[4]} { LOCATION = R16;  }
+set_pin_assignment {VGA_R[3]} { LOCATION = R14;  }
+set_pin_assignment {VGA_R[2]} { LOCATION = N12;  }
+
+set_pin_assignment {VGA_H} { LOCATION = B10;  }
+set_pin_assignment {VGA_V} { LOCATION = A6;  }
+set_pin_assignment {VGA_CLK} { LOCATION = R7;  }
+
+set_pin_assignment {AUD_XCK} { LOCATION = C7;  }
+set_pin_assignment {AUD_BCLK} { LOCATION = A5;  }
+set_pin_assignment {AUD_DACLRCK} { LOCATION = B6;  }
+set_pin_assignment {AUD_DACDAT} { LOCATION = C9;  }
+
+set_pin_assignment {J1[3]} { LOCATION = A8;  }
+set_pin_assignment {J1[4]} { LOCATION = A7;  }
+set_pin_assignment {J1[2]} { LOCATION = B8;  }
+set_pin_assignment {J1[1]} { LOCATION = B14;  }
+set_pin_assignment {J1[0]} { LOCATION = C8;  }
+set_pin_assignment {J1[5]} { LOCATION = A14;  }
+set_pin_assignment {J1[6]} { LOCATION = A12;  }
+
+set_pin_assignment {J2[3]} { LOCATION = B15;  }
+set_pin_assignment {J2[4]} { LOCATION = B16;  }
+set_pin_assignment {J2[2]} { LOCATION = A13;  }
+set_pin_assignment {J2[1]} { LOCATION = C15;  }
+set_pin_assignment {J2[0]} { LOCATION = C11;  }
+set_pin_assignment {J2[5]} { LOCATION = A11;  }
+set_pin_assignment {J2[6]} { LOCATION = C16;  }
+
+set_pin_assignment {PS2KD} { LOCATION = A4;  }
+set_pin_assignment {PS2KC} { LOCATION = A3;  }

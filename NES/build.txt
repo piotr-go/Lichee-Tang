@@ -1,0 +1,11 @@
+open_project ./fpga_nes.al
+clean_project ./fpga_nes.al
+elaborate -top fpga_nes
+optimize_rtl
+read_adc ../src/io.adc
+optimize_gate
+place
+route
+bitgen -bit fpga_nes.bit -version 0X00 -g ucode:00000000000000000000000000000000 -c -bin fpga_nes.bin
+report_area
+clean_project ./fpga_nes.al
